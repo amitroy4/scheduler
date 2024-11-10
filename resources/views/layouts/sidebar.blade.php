@@ -59,7 +59,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="widgets.html">
+                        <a href="#">
                             <i class="fas fa-calendar-alt"></i>
                             <p>Events</p>
                         </a>
@@ -71,13 +71,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="widgets.html">
+                        <a href="#">
                             <i class="fas fa-desktop"></i>
                             <p>Company</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="widgets.html">
+                        <a href="#">
                             <i class="far fa-calendar-alt"></i>
                             <p>My Calender</p>
                         </a>
@@ -92,17 +92,17 @@
                         <div class="collapse" id="email-nav">
                             <ul class="nav nav-collapse">
                                 <li>
-                                    <a href="email-inbox.html">
+                                    <a href="#">
                                         <span class="sub-item">New To-Do</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="email-compose.html">
+                                    <a href="#">
                                         <span class="sub-item">To-Do List</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="email-detail.html">
+                                    <a href="#">
                                         <span class="sub-item">Upcomming To-Do List</span>
                                     </a>
                                 </li>
@@ -119,16 +119,16 @@
                         <div class="collapse" id="messages-app-nav">
                             <ul class="nav nav-collapse">
                                 <li>
-                                    <a href="messages.html">
+                                    <a href="#">
                                         <span class="sub-item">New Meeting Schedule</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="conversations.html">
+                                    <a href="#">
                                         <span class="sub-item">Manage Schedule</span>
                                     </a>
                                 </li><li>
-                                    <a href="conversations.html">
+                                    <a href="#">
                                         <span class="sub-item">Upcomming Meetinge</span>
                                     </a>
                                 </li>
