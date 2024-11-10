@@ -27,12 +27,12 @@
             <div class="profile-section">
                 <div class="user-profile d-flex flex-column align-items-center text-center py-4">
                     <div class="avatar avatar-xl mb-3">
-                        <img src="{{asset('admin')}}/img/profile2.jpg" alt="..." class="avatar-img rounded-circle">
+                        <img src="{{asset('admin')}}/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
                     </div>
                     <div class="avatar avatar-minimize avatar-md mb-3 d-none">
-                        <img src="{{asset('admin')}}/img/profile2.jpg" alt="..." class="avatar-img rounded-circle">
+                        <img src="{{asset('admin')}}/img/profile.jpg" alt="..." class="avatar-img rounded-circle">
                     </div>
-                    <span class="user-name fw-bold mb-1">Samuel Adhikary</span>
+                    <span class="user-name fw-bold mb-1">{{Auth::user()->name }}</span>
                     <span class="user-level op-7">Director</span>
                 </div>
                 <div class="row menubars border-top border-bottom text-center no-gutters px-4">
@@ -52,7 +52,7 @@
                 <ul class="nav nav-primary">
                     <!--Main Sidebar Menue-->
                     <li class="nav-item active">
-                        <a href="calendar.html">
+                        <a href="{{route('dashboard')}}">
                             <i class="fas fa-home"></i>
                             <p>Dashboard</p>
                             <span class="caret"></span>
@@ -60,13 +60,13 @@
                     </li>
                     <li class="nav-item">
                         <a href="widgets.html">
-                            <i class="fas fa-desktop"></i>
+                            <i class="fas fa-calendar-alt"></i>
                             <p>Events</p>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="{{route('client.index')}}">
-                            <i class="far fa-calendar-alt"></i>
+                            <i class="fas fa-user-friends"></i>
                             <p>Clients</p>
                         </a>
                     </li>
@@ -78,7 +78,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="widgets.html">
-                            <i class="fas fa-desktop"></i>
+                            <i class="far fa-calendar-alt"></i>
                             <p>My Calender</p>
                         </a>
                     </li>
